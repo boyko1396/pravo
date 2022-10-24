@@ -1,0 +1,17 @@
+.welcome-section {
+    background: $color-white-1;
+    padding: 20px 0;
+    &__container {
+    }
+    &__inner {
+    }
+    &__title {
+        margin: 0 0 6px;
+    }
+    &__text {
+        margin: 0 0 12px;
+    }
+    &__btn-video {
+        margin: 9px 0 13px 9px;
+    }
+}

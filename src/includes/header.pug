@@ -1,0 +1,90 @@
+header.header
+  .container.header__container
+    .header__top
+      button(type="button").js-header-toggle.header__toggle
+        svg.icon.header__toggle-icon
+          use(xlink:href="images/sprite.svg#hamburger-icon")
+      a(href="/").logo.logo--size-md.header__logo
+        img(src="images/logo.svg" alt="Праворуб" title="Home" width="160" height="40").logo__img
+      form(action="#").search-main.header__search
+        button(type="submit").search-main__btn
+          svg.icon.search-main__btn-icon
+            use(xlink:href="images/sprite.svg#search")
+        input(type="search" name="q" placeholder="Поиск по сайту").search-main__input
+      .header__info-list
+        .info-item.info-item--theme-simple.header__info-list-item
+          .info-item__picture
+            img(src="images/info-item-1.svg" alt="Поиск специалиста" width="24" height="24").info-item__img
+          .info-item__content
+            .info-item__title Поиск специалиста
+            .info-item__text Юриста. Адвоката. Эксперта
+        .info-item.info-item--theme-simple.header__info-list-item
+          .info-item__picture
+            img(src="images/info-item-2.svg" alt="Средняя стомость услуг" width="24" height="24").info-item__img
+          .info-item__content
+            .info-item__title Средняя стомость услуг
+            .info-item__text Юристов и Адвокатов в РФ
+        .info-item.info-item--theme-simple.header__info-list-item
+          .info-item__picture
+            img(src="images/info-item-3.svg" alt="Все сервисы" width="24" height="24").info-item__img
+          .info-item__content
+            .info-item__title Все сервисы
+            .info-item__text Попробуйте сами
+      .header__user
+        a(href="#").btn.btn--size-sm.btn--theme-accent.header__user-login
+          span.btn__inner
+            span.btn__title Войти
+        p.header__user-seperator или
+        .sc-block.header__user-social
+          ul.sc-block__list
+            li.sc-block__item
+              a(href="#").sc-block__link
+                svg.icon.sc-block__link-icon
+                  use(xlink:href="images/sprite.svg#social-facebook")
+            li.sc-block__item
+              a(href="#").sc-block__link
+                svg.icon.sc-block__link-icon
+                  use(xlink:href="images/sprite.svg#social-vk")
+            li.sc-block__item
+              a(href="#").sc-block__link
+                svg.icon.sc-block__link-icon
+                  use(xlink:href="images/sprite.svg#social-yandex")
+            li.sc-block__item
+              a(href="#").sc-block__link
+                svg.icon.sc-block__link-icon
+                  use(xlink:href="images/sprite.svg#social-google")
+    nav(role="navigation").header-nav.header__nav
+        ul.header-nav__list
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Публикации
+              svg.icon.header-nav__link-icon
+                use(xlink:href="images/sprite.svg#arrow-1")
+            ul.header-nav__dropdown
+              li.header-nav__dropdown-item
+                a(href="#").header-nav__dropdown-link Статьи
+              li.header-nav__dropdown-item
+                a(href="#").header-nav__dropdown-link Персональные
+              li.header-nav__dropdown-item
+                a(href="#").header-nav__dropdown-link Эксклюзив
+              li.header-nav__dropdown-item
+                a(href="#").header-nav__dropdown-link Заказ услуг
+              li.header-nav__dropdown-item
+                a(href="#").header-nav__dropdown-link Группы
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Комментарии
+              span.badge.header-nav__link-badge +150
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Компании
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Группы
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Вопросы-ответы online
+              span.badge.header-nav__link-badge +50
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Дела
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Эксклюзив
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Сервисы
+          li.header-nav__item.header-nav__item--dropdown
+            a.header-nav__link Мероприятия

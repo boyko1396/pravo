@@ -1,0 +1,889 @@
+section.welcome-section
+  .container.welcome-section__container
+    .welcome-section__inner
+      h1.title-size-2.welcome-section__title Добро пожаловать!
+      .content.welcome-section__text
+        p Профессиональное общение. Уникальные процессуальные документы<br>Актуальная судебная практика. Квалифицированная помощь.
+      button(type="button").btn-video.welcome-section__btn-video
+        .btn-video__picture
+          svg.icon.btn-video__icon
+            use(xlink:href="images/sprite.svg#play-btn-icon")
+        span.btn-video__title Приветственное видео
+
+section.layout
+  .container.layout__container
+    .row.layout__row
+      .row__col--3.layout__col.layout__col--sidebar-l
+        aside.aside-l
+          h2.title-size-2.aside-l__title Публикации
+          .aside-l__list
+            .aside-l__list-item
+              article.card.card--theme-media
+                header.card__media
+                  picture.card__media-el
+                    img(src="images/card-1.jpg" alt="").card__media-img
+                .card__content
+                  .card__content-info
+                    a(href="#").rubric.card__content-info-rubric Судебная практика
+                    button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                      svg.icon.btn-action__icon
+                        use(xlink:href="images/sprite.svg#favorite")
+                  h3.title-size-4.card__content-title 
+                    a(href="#").card__content-title-link Проблема определения национальной принадлежности или как на практике работает ст. 26 Конституции РФ определения национальной
+                  footer.card__footer
+                    .user-info-card.user-info-card--size-sm.card__footer-author
+                      .user-info-card__media
+                        picture.user-info-card__picture
+                          a(href="#").user-info-card__link
+                            img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                        .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                      .user-info-card__content
+                        .user-info-card__position Адвокат
+                        .user-info-card__title
+                          a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                    .card__footer-info
+                      time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                      .info-label.card__footer-info-item
+                        .info-label__picture
+                          svg.icon.info-label__icon
+                            use(xlink:href="images/sprite.svg#eye")
+                        .info-label__text 100К
+                      .info-label.card__footer-info-item
+                        .info-label__picture
+                          svg.icon.info-label__icon
+                            use(xlink:href="images/sprite.svg#comment")
+                        .info-label__text 235К
+                      .info-label-time.card__footer-info-item
+                        .info-label-time__text 15 мин
+            .aside-l__list-item
+              article.card.card--theme-media
+                header.card__media
+                  picture.card__media-el
+                    img(src="images/card-1.jpg" alt="").card__media-img
+                .card__content
+                  .card__content-info
+                    a(href="#").rubric.card__content-info-rubric Судебная практика
+                    button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                      svg.icon.btn-action__icon
+                        use(xlink:href="images/sprite.svg#favorite")
+                  h3.title-size-4.card__content-title 
+                    a(href="#").card__content-title-link Проблема определения национальной принадлежности или как на практике работает ст. 26 Конституции РФ определения национальной
+                  footer.card__footer
+                    .user-info-card.user-info-card--size-sm.card__footer-author
+                      .user-info-card__media
+                        picture.user-info-card__picture
+                          a(href="#").user-info-card__link
+                            img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                        .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                      .user-info-card__content
+                        .user-info-card__position Адвокат
+                        .user-info-card__title
+                          a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                    .card__footer-info
+                      time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                      .info-label.card__footer-info-item
+                        .info-label__picture
+                          svg.icon.info-label__icon
+                            use(xlink:href="images/sprite.svg#eye")
+                        .info-label__text 100К
+                      .info-label.card__footer-info-item
+                        .info-label__picture
+                          svg.icon.info-label__icon
+                            use(xlink:href="images/sprite.svg#comment")
+                        .info-label__text 235К
+                      .info-label-time.card__footer-info-item
+                        .info-label-time__text 15 мин
+      .row__col--6.layout__col.layout__col--main
+        .layout-main
+          .tab-nav.layout-main__tab-nav
+            ul.tab-nav__list
+              li.tab-nav__item
+                a(href="#").tab-nav__link.is-active Лучшие новые публикации
+              li.tab-nav__item
+                a(href="#").tab-nav__link Продвигаемые
+              li.tab-nav__item
+                a(href="#").tab-nav__link Популярные
+          .layout-main__card-list
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .layout-main__card-list-item
+                article.card.card--theme-simple
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Судебная практика
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Отмена постановления суда о назначении административного наказания в суде апелля постановления суда
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+          .layout-main__moore
+            .loader-dot.layout-main__moore-loader
+              span.loader-dot__item
+              span.loader-dot__item
+              span.loader-dot__item
+              span.loader-dot__item
+            p.layout-main__moore-title Подгрузка, количество можно задать к примеру 50<br>После чего можно сделать кнопку показать еще, или линк на раздел.
+            a(href="#").btn.btn--size-md.btn--theme-accent.btn--hover-rotate.layout-main__moore-btn
+              span.btn__inner
+                svg.icon.btn__icon.btn__icon--rtl
+                  use(xlink:href="images/sprite.svg#refresh")
+                span.btn__title Показать еще
+      .row__col--3.layout__col.layout__col--sidebar-r
+        aside.aside-r
+          a(href="#").btn.btn--size-md.btn--theme-accent.btn--w-100.aside-r__btn-search-specialist
+            span.btn__inner
+              span.btn__title Подобрать специалиста
+          .aside-r__list-info
+            .aside-r__list-info-item
+              .info-item.info-item--theme-box
+                .info-item__picture
+                  img(src="images/info-item-2.svg" alt="Средняя стоимость услуг" width="28" height="28").info-item__img
+                .info-item__content
+                  .info-item__title Средняя стоимость услуг
+                  .info-item__text Юристов и Адвокатов в РФ
+            .aside-r__list-info-item
+              .info-item.info-item--theme-box
+                .info-item__picture
+                  img(src="images/info-item-4.svg" alt="Заказать услугу" width="28" height="28").info-item__img
+                .info-item__content
+                  .info-item__title Заказать услугу
+                  .info-item__text Какой то поясняющий текст
+          .aside-r__list-card-service
+            article.card-service.aside-r__list-card-service-item
+              header.card-service__header
+                span.badge-service-type.badge-service-type--size-sm.badge-service-type--theme-personal-consultation.card-service__badge Персональная консультация
+              .card-service__content
+                .content.card-service__content-text
+                  p Профессиональная нестандартная юридическая помощь по решению Ваших проблем, в частности по гражданскому, наследственному, жилищному, семейному, в частности по гражданскому, в частности по гражданскому, в частности по гражданскому, в частности по гражданскому
+                button(type="button").js-card-service-btn-moore.btn-action.btn-action--size-md.card-service__content-btn-moore
+                  svg.icon.btn-action__icon
+                    use(xlink:href="images/sprite.svg#arrow-1")
+              footer.card-service__footer
+                .user-info-card.user-info-card--size-md.card-service__footer-author
+                  .user-info-card__media
+                    picture.user-info-card__picture
+                      a(href="#").user-info-card__link
+                        img(src="images/user-info-card-2.jpg" alt="Коробкова Светлана Леонидовна")
+                    .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                  .user-info-card__content
+                    .user-info-card__position Адвокат
+                    .user-info-card__title
+                      a(href="#").user-info-card__name Коробкова Светлана Леонидовна
+                    .user-info-card__address Пермь, Россия 
+                    .user-info-card__phone
+                      a(href="tel:+74957410050").user-info-card__phone-link +7 (495) 741-00-50
+                      button(type="button").js-user-info-card-btn-phone-view.user-info-card__phone-btn-view Показать целиком
+            article.card-service.aside-r__list-card-service-item
+              header.card-service__header
+                span.badge-service-type.badge-service-type--size-sm.badge-service-type--theme-personal-consultation.card-service__badge Персональная консультация
+              .card-service__content
+                .content.card-service__content-text
+                  p Профессиональная нестандартная юридическая помощь по решению Ваших проблем, в частности по гражданскому, наследственному, жилищному, семейному, в частности по гражданскому, в частности по гражданскому, в частности по гражданскому, в частности по гражданскому
+                button(type="button").js-card-service-btn-moore.btn-action.btn-action--size-md.card-service__content-btn-moore
+                  svg.icon.btn-action__icon
+                    use(xlink:href="images/sprite.svg#arrow-1")
+              footer.card-service__footer
+                .user-info-card.user-info-card--size-md.card-service__footer-author
+                  .user-info-card__media
+                    picture.user-info-card__picture
+                      a(href="#").user-info-card__link
+                        img(src="images/user-info-card-2.jpg" alt="Коробкова Светлана Леонидовна")
+                    .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                  .user-info-card__content
+                    .user-info-card__position Адвокат
+                    .user-info-card__title
+                      a(href="#").user-info-card__name Коробкова Светлана Леонидовна
+                    .user-info-card__address Пермь, Россия 
+                    .user-info-card__phone
+                      a(href="tel:+74957410050").user-info-card__phone-link +7 (495) 741-00-50
+                      button(type="button").js-user-info-card-btn-phone-view.user-info-card__phone-btn-view Показать целиком
+            article.card-service.aside-r__list-card-service-item
+              header.card-service__header
+                span.badge-service-type.badge-service-type--size-sm.badge-service-type--theme-personal-consultation.card-service__badge Персональная консультация
+              .card-service__content
+                .content.card-service__content-text
+                  p Профессиональная нестандартная юридическая помощь по решению Ваших проблем, в частности по гражданскому, наследственному, жилищному, семейному, в частности по гражданскому, в частности по гражданскому, в частности по гражданскому, в частности по гражданскому
+                button(type="button").js-card-service-btn-moore.btn-action.btn-action--size-md.card-service__content-btn-moore
+                  svg.icon.btn-action__icon
+                    use(xlink:href="images/sprite.svg#arrow-1")
+              footer.card-service__footer
+                .user-info-card.user-info-card--size-md.card-service__footer-author
+                  .user-info-card__media
+                    picture.user-info-card__picture
+                      a(href="#").user-info-card__link
+                        img(src="images/user-info-card-2.jpg" alt="Коробкова Светлана Леонидовна")
+                    .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                  .user-info-card__content
+                    .user-info-card__position Адвокат
+                    .user-info-card__title
+                      a(href="#").user-info-card__name Коробкова Светлана Леонидовна
+                    .user-info-card__address Пермь, Россия 
+                    .user-info-card__phone
+                      a(href="tel:+74957410050").user-info-card__phone-link +7 (495) 741-00-50
+                      button(type="button").js-user-info-card-btn-phone-view.user-info-card__phone-btn-view Показать целиком
+          a(href="#").btn.btn--size-md.btn--theme-accent.btn--w-100.aside-r__btn-add-service
+            span.btn__inner
+              span.btn__title Разместить свою визитку
+      .row__col--12.layout__col.layout__col--articles
+        .screen
+          .screen__header
+            .tab-nav.screen__header-tab-nav
+              ul.tab-nav__list
+                li.tab-nav__item
+                  a(href="#").tab-nav__link.is-active Статьи
+                li.tab-nav__item
+                  a(href="#").tab-nav__link Персональные
+                li.tab-nav__item
+                  a(href="#").tab-nav__link Эксклюзив
+                li.tab-nav__item
+                  a(href="#").tab-nav__link Заказ услуг
+                li.tab-nav__item
+                  a(href="#").tab-nav__link Группы
+          .article-list.screen__list
+            .row.article-list__row
+              .row__col--4.article-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Налоговые преступления
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Обвинение по ст. 199 УК РФ (примерная схема)
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.article-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Налоговые преступления
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Обвинение по ст. 199 УК РФ (примерная схема)
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.article-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Налоговые преступления
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Обвинение по ст. 199 УК РФ (примерная схема)
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.article-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Налоговые преступления
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Обвинение по ст. 199 УК РФ (примерная схема)
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.article-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Налоговые преступления
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Обвинение по ст. 199 УК РФ (примерная схема)
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.article-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Налоговые преступления
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Обвинение по ст. 199 УК РФ (примерная схема)
+                    footer.card__footer
+                      .user-info-card.user-info-card--size-sm.card__footer-author
+                        .user-info-card__media
+                          picture.user-info-card__picture
+                            a(href="#").user-info-card__link
+                              img(src="images/user-info-card-1.jpg" alt="Гречанюк Василий Герольдович")
+                          .badge-status.badge-status--size-sm.badge-status--pro.user-info-card__badge-status Pro
+                        .user-info-card__content
+                          .user-info-card__position Адвокат
+                          .user-info-card__title
+                            a(href="#").user-info-card__name Гречанюк Василий Герольдович
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+          .screen__footer
+            a(href="#").btn.btn--size-md.btn--theme-accent.btn--hover-rotate.screen__footer-moore-btn
+              span.btn__inner
+                svg.icon.btn__icon.btn__icon--rtl
+                  use(xlink:href="images/sprite.svg#refresh")
+                span.btn__title Показать еще
+      .row__col--12.layout__col.layout__col--banner
+        .layout__b-block
+          .b-block
+            .b-block__media
+              img(src="images/banner-desktop.png" alt="Banner")
+      .row__col--12.layout__col.layout__col--articles
+        .screen
+          .screen__header
+            h2.title-size-2.screen__header-title Новости проекта
+          .news-list.screen__list
+            .row.news-list__row
+              .row__col--4.news-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Сообщество Праворуб
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Мечты сбываются: Праворуб начинает выплату стимулирующих вознаграждений авторам ХОРОШИХ публикаций
+                    footer.card__footer
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.news-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Сообщество Праворуб
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Мечты сбываются: Праворуб начинает выплату стимулирующих вознаграждений авторам ХОРОШИХ публикаций
+                    footer.card__footer
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+              .row__col--4.news-list__col
+                article.card.card--theme-compact
+                  .card__content
+                    .card__content-info
+                      a(href="#").rubric.card__content-info-rubric Сообщество Праворуб
+                      button(type="button").js-card-btn-favorite.btn-action.btn-action--size-md.card__content-info-btn-favorite
+                        svg.icon.btn-action__icon
+                          use(xlink:href="images/sprite.svg#favorite")
+                    h3.title-size-4.card__content-title 
+                      a(href="#").card__content-title-link Мечты сбываются: Праворуб начинает выплату стимулирующих вознаграждений авторам ХОРОШИХ публикаций
+                    footer.card__footer
+                      .card__footer-info
+                        time(datetime="2021-05-25T13:35:00+03:00").info-label-date.card__footer-info-item  25.05.2021
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#eye")
+                          .info-label__text 100К
+                        .info-label.card__footer-info-item
+                          .info-label__picture
+                            svg.icon.info-label__icon
+                              use(xlink:href="images/sprite.svg#comment")
+                          .info-label__text 235К
+                        .info-label-time.card__footer-info-item
+                          .info-label-time__text 15 мин
+          .screen__footer
+            a(href="#").btn.btn--size-md.btn--theme-accent.btn--hover-move-x.screen__footer-moore-btn
+              span.btn__inner
+                svg.icon.btn__icon.btn__icon--ltr
+                  use(xlink:href="images/sprite.svg#arrow-2")
+                span.btn__title Перейти в раздел
